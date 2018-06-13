@@ -1,4 +1,4 @@
-package com.xqhuang.architecture1;
+package org.architecture.distributed;
 
 /**
  * Hello world!

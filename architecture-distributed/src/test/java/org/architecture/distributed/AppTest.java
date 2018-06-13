@@ -1,4 +1,4 @@
-package com.xqhuang.architecture1;
+package org.architecture.distributed;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

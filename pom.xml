@@ -21,4 +21,7 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <modules>
+  	<module>architecture-distributed</module>
+  </modules>
 </project>
