@@ -1,4 +1,4 @@
-package org.architecture.distributed;
+package org.architecture.distributed.rpc;
 
 import junit.framework.Test;
 import junit.framework.TestCase;

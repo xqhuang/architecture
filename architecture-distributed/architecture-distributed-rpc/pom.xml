@@ -4,21 +4,23 @@
   <modelVersion>4.0.0</modelVersion>
   <parent>
     <groupId>com.xqhuang</groupId>
-    <artifactId>architecture</artifactId>
+    <artifactId>architecture-distributed</artifactId>
     <version>1.0.0-SNAPSHOT</version>
   </parent>
-  <packaging>pom</packaging>
   <groupId>com.xqhuang</groupId>
-  <artifactId>architecture-distributed</artifactId>
+  <artifactId>architecture-distributed-rpc</artifactId>
   <version>1.0.0-SNAPSHOT</version>
-  <name>architecture-distributed</name>
+  <name>architecture-distributed-rpc</name>
   <url>http://maven.apache.org</url>
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
-  <modules>
-  	<module>architecture-distributed-rpc</module>
-  	<module>architecture-distributed-registry</module>
-  </modules>
+  <dependencies>
+    <dependency>
+      <groupId>junit</groupId>
+      <artifactId>junit</artifactId>
+      <version>3.8.1</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 </project>

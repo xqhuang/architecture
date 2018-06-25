@@ -1,4 +1,4 @@
-package org.architecture.distributed;
+package org.architecture.distributed.common;
 
 /**
  * Hello world!
